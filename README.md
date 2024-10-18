@@ -4,6 +4,16 @@
 
 This document describes how to execute Jupyter notebooks on the [Qubernetes](https://qubernetes.dev) backend. The Qubernetes backend is a Kubernetes cluster that is configured to run quantum circuits on GPU-backed simulators, e.g. Qiskit or PennyLane.
 
+## Prerequisites
+
+You need the following tools to be able to run Jupyter with the Qubernetes backend:
+
+- [Docker](https://www.docker.com/)
+
+The following tools are optional but recommended:
+
+- [Make](https://www.gnu.org/software/make/)
+
 ## Getting started
 
 ### Python dependencies
